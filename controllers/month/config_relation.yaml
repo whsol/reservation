@@ -1,0 +1,12 @@
+# ===================================
+#  Relation Behavior Config
+# ===================================
+
+days:
+    label: whsol.reservation::lang.day.label
+    list: @/plugins/whsol/reservation/models/day/columns.yaml
+    form: @/plugins/whsol/reservation/models/day/fields.yaml
+    showSorting: False
+    defaultSort:
+      column: day_number
+      direction: asc

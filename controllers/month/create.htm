@@ -1,0 +1,17 @@
+<?php if (!$this->fatalError): ?>
+
+    <?= Form::open(['class'=>'layout-item stretch layout-column']) ?>
+        <div class="layout fancy-layout">
+            <?= $this->formRender() ?>
+        </div>
+
+        <?= $this->relationRender('days') ?>
+
+    <?= Form::close() ?>
+
+<?php else: ?>
+    <p class="flash-message static error"><?= e($this->fatalError) ?></p>
+    <a href="<?= Backend::url('whsol/reservation/month') ?>" class="btn btn-default">
+        <?= e(trans('whsol.reservation::lang.month.return')) ?>
+    </a>
+<?php endif ?>

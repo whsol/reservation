@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: whsol.reservation::lang.reservation.label
+form: @/plugins/whsol/reservation/models/reservation/fields.yaml
+modelClass: WhSol\Reservation\Models\Reservation
+defaultRedirect: whsol/reservation/reservation
+
+create:
+    redirect: whsol/reservation/reservation/update/:id
+    redirectClose: whsol/reservation/reservation
+
+update:
+    redirect: whsol/reservation/reservation
+    redirectClose: whsol/reservation/reservation

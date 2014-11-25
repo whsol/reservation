@@ -1,0 +1,20 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+  name:
+    label: whsol.reservation::lang.reservation.name
+    sortable: True
+    searchable: true
+
+  reserv_date:
+    label: whsol.reservation::lang.reservation.reserv_date
+    sortable: True
+    searchable: true
+
+  reserv_time:
+    label: whsol.reservation::lang.reservation.reserv_time
+    sortable: True
+    searchable: true

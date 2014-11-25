@@ -1,0 +1,18 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+  month_name:
+    label: whsol.reservation::lang.month.month_name
+    sortable: True
+  year:
+    label: whsol.reservation::lang.month.year
+    sortable: True
+
+  created_at:
+    type: date
+
+  updated_at:
+    type: date

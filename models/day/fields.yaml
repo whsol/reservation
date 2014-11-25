@@ -1,0 +1,39 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+  day_name:
+      label: whsol.reservation::lang.day.day_name
+      type: dropdown
+      required: True
+
+  day_number:
+      label: whsol.reservation::lang.day.day_number
+      required: True
+
+  is_vacation:
+      label: whsol.reservation::lang.day.is_vacation
+      type: switch
+
+  day_from:
+      label: whsol.reservation::lang.day.day_from
+      required: True
+
+  break_from:
+      label: whsol.reservation::lang.day.break_from
+      required: True
+
+  break_to:
+      label: whsol.reservation::lang.day.break_to
+      required: True
+
+  day_to:
+      label: whsol.reservation::lang.day.day_to
+      required: True
+
+  minute_interval:
+      label: whsol.reservation::lang.settings.minute_interval
+      required: True
+

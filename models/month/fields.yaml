@@ -1,0 +1,16 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+  month_name:
+    label: whsol.reservation::lang.month.month_name
+    type: dropdown
+  year:
+    label: whsol.reservation::lang.month.year
+
+  toolbar:
+    type: partial
+    path: post_toolbar
+    cssClass: collapse-visible

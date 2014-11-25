@@ -1,0 +1,7 @@
+<label for="workingTimeSelect">{{ workingTimesLable }}</label>
+<select class="form-control select optional" size="{{ isDesktop ? 10 : 1 }}" name="reservTime" id="workingTimeSelect" required>
+    <option value="">--</option>
+    {% for workingTime in workingTimes %}
+        <option value="{{ workingTime.time|e }}" {{ workingTime.reserved ? 'disabled' }} >{{ workingTime.time|e }}</option>
+    {% endfor %}
+</select>

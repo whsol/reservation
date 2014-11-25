@@ -1,0 +1,17 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    name:
+      label: whsol.reservation::lang.reservation.name
+      required: True
+
+    reserv_date:
+      label: whsol.reservation::lang.reservation.reserv_date
+      required: True
+
+    reserv_time:
+      label: whsol.reservation::lang.reservation.reserv_time
+      required: True

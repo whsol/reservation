@@ -1,0 +1,33 @@
+# ===================================
+#  Column Definitions
+# ===================================
+
+columns:
+
+  day_number:
+    label: whsol.reservation::lang.day.day_number
+    sortable: True
+
+  day_name:
+    label: whsol.reservation::lang.day.day_name
+    searchable: true
+
+  day_from:
+    label: whsol.reservation::lang.day.day_from
+
+  break_from:
+    label: whsol.reservation::lang.day.break_from
+
+  break_to:
+    label: whsol.reservation::lang.day.break_to
+
+  day_to:
+    label: whsol.reservation::lang.day.day_to
+
+  is_vacation:
+    label: whsol.reservation::lang.day.is_vacation
+    sortable: True
+
+  minute_interval:
+    label: whsol.reservation::lang.settings.minute_interval
+    sortable: True

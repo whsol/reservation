@@ -1,0 +1,40 @@
+<script type="text/javascript">
+var WhSol = {
+    'Reservation': {{ datePickierParams|raw }},
+};
+
+</script>
+<div class="container" id="reservContainer" >
+    <form id="reservForm">
+        <fieldset>
+            <div class="row">
+                <div class="col-lg-6">
+                    <div data-date="{{"now"|date('Y-m-d')}}" data-date-format="yyyy-mm-dd" id="showAvailableDates">
+                        <input required type="text" value="{{"now"|date('Y-m-d')}}" readonly="readonly" class="hide" name='reservDate' id='reservDate' />
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="form-group wrapper m" id="workingTimes">
+                        {% partial 'reservationForm::workingTimes' %}
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class='m-t'>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="form-group">
+                        <input required type="text" value="" name="reservName" id="fio" class="required form-control" placeholder="{{ reservNamePlaceHolder }}"/>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="pull-right">
+                        <button type="submit" class="btn btn-primary rigth" id="reservSubmit" disabled >
+                             {{ submitName }}
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</div>

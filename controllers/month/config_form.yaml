@@ -1,0 +1,16 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+name: whsol.reservation::lang.month.label
+form: @/plugins/whsol/reservation/models/month/fields.yaml
+modelClass: WhSol\Reservation\Models\Month
+defaultRedirect: whsol/reservation/month
+
+create:
+    redirect: whsol/reservation/month/update/:id
+    redirectClose: whsol/reservation/month
+
+update:
+    redirect: whsol/reservation/month
+    redirectClose: whsol/reservation/month

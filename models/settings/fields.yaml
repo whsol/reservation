@@ -1,0 +1,35 @@
+tabs:
+  fields:
+    minute_interval:
+      label: whsol.reservation::lang.settings.minute_interval
+      type: text
+      default: 20
+      tab: whsol.reservation::lang.settings.tab.general
+    day_from:
+      label: whsol.reservation::lang.settings.day_from
+      type: text
+      default: 08:00
+      tab: whsol.reservation::lang.settings.tab.general
+    day_to:
+      label: whsol.reservation::lang.settings.day_to
+      type: text
+      default: 17:00
+      tab: whsol.reservation::lang.settings.tab.general
+    break_from:
+      label: whsol.reservation::lang.settings.break_from
+      type: text
+      default: 12:00
+      tab: whsol.reservation::lang.settings.tab.general
+    break_to:
+      label: whsol.reservation::lang.settings.break_to
+      type: text
+      default: 13:00
+      tab: whsol.reservation::lang.settings.tab.general
+    start_date:
+      label: whsol.reservation::lang.settings.start_date
+      type: dropdown
+      tab: whsol.reservation::lang.settings.tab.generate
+    end_date:
+      lable: whsol.reservation::lang.settings.end_date
+      type: dropdown
+      tab: whsol.reservation::lang.settings.tab.generate

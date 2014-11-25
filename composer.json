@@ -1,0 +1,15 @@
+{
+    "name": "whsol/reservation",
+    "description": "Reservation",
+    "keywords": ["october", "cms", "octobercms", "laravel"],
+    "authors": [
+        {
+            "name": "Eugene Strelkov"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "mobiledetect/mobiledetectlib": "*",
+        "maatwebsite/excel": "1.*"
+    }
+}
